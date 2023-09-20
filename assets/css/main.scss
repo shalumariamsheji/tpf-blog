@@ -1,0 +1,16 @@
+---
+search: false
+---
+
+// $text-color: #02457a;
+// $intro-transition  : none;
+// $global-transition : none;
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.masthead_menu { 
+    color: red;
+  }
